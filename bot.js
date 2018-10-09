@@ -7,8 +7,7 @@ console.log("log");
 });
 
 client.on('ready', () => {
-     client.user.setActivity("اهلا ",{type: 'WATCHING'})
-
+  client.user.setGame(` (: `,'https://www.twitch.tv/v5bz');
 });
 
 client.login(process.env.BOT_TOKEN); 
