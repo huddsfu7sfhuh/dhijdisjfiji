@@ -7,7 +7,7 @@ console.log("log");
 });
 
 client.on('ready', () => {
-  client.user.setGame(` (: `,'https://www.twitch.tv/v5bz');
+  client.user.setGame(` :smiley: `,'https://www.twitch.tv/v5bz');
 });
 
 client.login(process.env.BOT_TOKEN); 
